@@ -12,4 +12,14 @@ connection.connect ((err) => {
     console.log('MySQL server is connected')
 } )
 
-module.exports = connection
+function showExistingContent() {
+    connection.query('SELECT * FROM your_table_name', (err, results) => {
+        if (err) throw err;
+        console.log(results);
+    });
+}
+
+module.exports = {
+    connection,
+    showExistingContent
+};

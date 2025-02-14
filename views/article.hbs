@@ -6,4 +6,27 @@
         <p><img src ="/images/{{image}}"> </p>
         {{{body}}} 
     </article>
+    <button onclick="openEditWindow()">Edit</button>
 {{/article}}
+
+<div id="editWindow" style="display:none;">
+    <textarea id="editText">{{body}}</textarea>
+    <button onclick="saveChanges()">Save</button>
+    <button onclick="closeEditWindow()">Cancel</button>
+</div>
+
+<script>
+function openEditWindow() {
+    document.getElementById('editWindow').style.display = 'block';
+}
+
+function closeEditWindow() {
+    document.getElementById('editWindow').style.display = 'none';
+}
+
+function saveChanges() {
+    const newText = document.getElementById('editText').value;
+    // Add your save logic here, e.g., send newText to the server
+    closeEditWindow();
+}
+</script>

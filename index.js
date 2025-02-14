@@ -7,5 +7,5 @@ app.use('/article', articleRoutes)
 
 
 app.listen(3012, () => {
-    console.log('Web server is connected.')
+    console.log('Server on ühendatud.')
 } )
