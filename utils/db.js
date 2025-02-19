@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'qwerty',
-    database: 'yoga_mysql'
+    database: 'joga_mysql'
 } )
 
 connection.connect ((err) => {
