@@ -22,8 +22,8 @@ Artikli lõpus on edit nupp, millele klikkides avaneb artikli pealkirja ja sisu 
 
 ### ✍️ Autorid
 
-Kaisa Ets
-Margit Viigi
-Mihkel Jõesalu
+- Kaisa Ets
+- Margit Viigi
+- Mihkel Jõesalu
 
 
