@@ -1,53 +1,29 @@
-# 📦 My Package
+# 📦Mis projektiga on tegu
 
-(add your badges here)
-
-> *Your documentation is a direct reflection of your software, so hold it to the same standards.*
+See projekt on jooga artiklite blogi. Meie ülesanne oli lisada uuendamise funktsioon. Muuta saab artikli pealkirja ja sisu.
 
 
-## 🌟 Highlights
+## Vajalik tarkvara ja selle paigaldamine
 
-- Some functionality made easy!
-- This problem handled
-- etc.
-
-
-## ℹ️ Overview
-
-A paragraph explaining your work, who you are, and why you made it.
+- Node.js
+- MySQL
 
 
-### ✍️ Authors
+## Kuidas projekti alla laadida ja tööle panna
 
-Mention who you are and link to your GitHub or organization's website.
+git clone https://github.com/margitviigi/yoga.git
+cd yoga
+npm install
+npm start
 
+## Kuidas projekti kasutada
 
-## 🚀 Usage
+Artikli lõpus on edit nupp, millele klikkides avaneb artikli pealkirja ja sisu muutmise võimalus. Save nupule vajutades salvestatakse tehtud muudatused andmebaasi.
 
-*Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
+### ✍️ Autorid
 
-```py
->>> import mypackage
->>> mypackage.do_stuff()
-'Oh yeah!'
-```
-
-
-## ⬇️ Installation
-
-Simple, understandable installation instructions!
-
-```bash
-pip install my-package
-```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.
-
-*You may be inclined to add development instructions here, don't.*
+Kaisa Ets
+Margit Viigi
+Mihkel Jõesalu
 
 
-## 💭 Feedback and Contributing
-
-Add a link to the Discussions tab in your repo and invite users to open issues for bugs/feature requests.
-
-This is also a great place to invite others to contribute in any ways that make sense for your project. Point people to your DEVELOPMENT and/or CONTRIBUTING guides if you have them.
