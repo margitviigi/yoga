@@ -1,16 +1,22 @@
-const express = require('express')
-const path = require ('path')
-const hbs = require ('express-handlebars')
+const express = require("express");
+const path = require("path");
+const hbs = require("express-handlebars");
 
-const app = express()
+const app = express();
 
-app.set('views', path.join(__dirname, '/../views'))
-app.set('view engine', 'hbs')
-app.engine('hbs', hbs.engine ({
-    extname:'hbs',
-    defaultLayout: 'main',
-    layoutsDir:path.join(__dirname, '/../views/layouts/')
-} ) )
+app.set("views", path.join(__dirname, "/../views"));
+app.set("view engine", "hbs");
+app.engine(
+  "hbs",
+  hbs.engine({
+    extname: "hbs",
+    defaultLayout: "main",
+    layoutsDir: path.join(__dirname, "/../views/layouts/"),
+  })
+);
 
-app.use(express.static('public'))
-module.exports = app
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static("public"));
+module.exports = app;
+
