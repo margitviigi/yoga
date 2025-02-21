@@ -15,6 +15,8 @@ app.engine(
   })
 );
 
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 module.exports = app;
+

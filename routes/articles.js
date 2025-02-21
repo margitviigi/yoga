@@ -1,10 +1,13 @@
+
 const express = require("express");
 const articleController = require("../controllers/articles");
 const router = express.Router();
 const db = require("../utils/db");
 
+
 router.get("/", articleController.getAllArticles);
 router.get("/article/:slug", articleController.getArticleBySlug);
+
 
 router.get("/article/:slug/edit", (req, res) => {
   const sql = "SELECT * FROM article WHERE slug = ?";
