@@ -13,6 +13,4 @@ app.engine('hbs', hbs.engine ({
 } ) )
 
 app.use(express.static('public'))
-app.use(express.urlencoded ({extended:true} ))
-
 module.exports = app
