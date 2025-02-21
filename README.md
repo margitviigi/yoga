@@ -11,10 +11,10 @@ See projekt on jooga artiklite blogi. Meie ülesanne oli lisada uuendamise funkt
 
 ## Kuidas projekti alla laadida ja tööle panna
 
-git clone https://github.com/margitviigi/yoga.git
-cd yoga
-npm install
-npm start
+- git clone https://github.com/margitviigi/yoga.git
+- cd yoga
+- npm install
+- npm start
 
 ## Kuidas projekti kasutada
 
